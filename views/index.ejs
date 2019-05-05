@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <form action="/signup" method="post">
+                <h1> Sign up</h1>
+                <input name="firstName" type="text" class="ghost-input" placeholder="First Name" required>
+                <input name="lastName" type="text" class="ghost-input" placeholder="Last Name" required>
+                <input name="emailId" type="email" class="ghost-input" placeholder="Email" required>
+                <input name="password" type="password" minlength="8" class="ghost-input" title="Atleast 8 characters"
+                    placeholder="Password" required>
+                <input name="phoneNumber" type="text" class="ghost-input" title="Optional" placeholder="Phone Number"
+                    required>
+                <input type="checkbox" name="checkbox">Subscribe to our newsletter<br>
+                <input type="submit" class="ghost-button" value="Sign In">
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
